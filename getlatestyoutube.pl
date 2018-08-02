@@ -3,8 +3,7 @@
 use XML::Twig;
 use LWP;
 use v5.10;
-use HTTP::Date;
-use HTTP::Date qw(parse_date);
+use HTTP::Date qw(time2str parse_date str2time);
 use strict;
 use warnings;
 
