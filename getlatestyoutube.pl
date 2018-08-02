@@ -6,6 +6,12 @@ use v5.10;
 use HTTP::Date qw(time2str parse_date str2time);
 use strict;
 use warnings;
+use Getopt::Long;
+
+#set command args
+my $rawdogflag;
+GetOptions('rawdog' => \$rawdogflag);
+
 
 my $currenttime = time;
 my $days = 1;
@@ -27,7 +33,12 @@ my $root = $twig->root;
 
 #sprint $root->name . "\n";
 
-open(my $rawdog,'>',"rawdog.txt"); # create file for rawdog
+# if rawdog option is set, output rawdog compatible file converted from youtube opml file
+my $rawdogfh;
+if ($rawdogflag == 1){
+	open($rawdogfh,'>',"rawdog.txt"); # create file for rawdog
+}
+
 my ($body, $outline, $outlineurl, @channels, $changetype);
 foreach $body ($root->children){
 	#print $body->name ."\n";
@@ -36,11 +47,17 @@ foreach $body ($root->children){
 				foreach $outlineurl ($outline->children){
 					#print $outlineurl->name ."--\n";
 					#print $outlineurl->att('text') ."\n";
-					print $rawdog "feed 30m ". $outlineurl->att('xmlUrl')."\n";
+					if ($rawdogflag == 1){
+							print $rawdogfh "feed 30m ". $outlineurl->att('xmlUrl')."\n";
+					}
+
 					push @channels, $outlineurl->att('xmlUrl');
 				}
 		}
 }
+
+
+
 open (my $fh_out, '>', "sub_out.xml");
 $twig->print($fh_out);
 
