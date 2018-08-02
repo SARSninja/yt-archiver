@@ -48,7 +48,7 @@ foreach $body ($root->children){
 					#print $outlineurl->name ."--\n";
 					#print $outlineurl->att('text') ."\n";
 					if ($rawdogflag == 1){
-							print $rawdogfh "feed 30m ". $outlineurl->att('xmlUrl')."\n";
+							say $rawdogfh "feed 30m ". $outlineurl->att('xmlUrl');
 					}
 
 					push @channels, $outlineurl->att('xmlUrl');
@@ -67,7 +67,7 @@ my $browser = LWP::UserAgent->new;
 my ($rssfileurl, $response);
 
 foreach $rssfileurl (@channels) {
-	print $rssfileurl ."\n";
+	say $rssfileurl;
 	my $response = $browser->get($rssfileurl);
 		die "Can't get $rssfileurl -- ", $response->status_line
 		unless $response->is_success;
@@ -92,7 +92,7 @@ foreach (@sorted_links)
 			say FH3 $_;
 			say FH4 $link;
 			}
-	print FH2 $_ ."\n";
+	say FH2 $_;
 	}
 
 ############################################
