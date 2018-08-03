@@ -82,6 +82,7 @@ if ($debugflag){
 
 open(YTDL,">ytdl.txt"); #youtube-dl input file
 my @vidlinks;
+my %videohash;
 my @sorted_links = reverse(sort(@vidlinks));
 foreach (@sorted_links)
 	{
