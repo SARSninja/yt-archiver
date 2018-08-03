@@ -21,6 +21,7 @@ $RECYCLE.BIN/
 *.opml
 *.txt
 *.xml
+*.debug
 
 # =========================
 # Operating System Files

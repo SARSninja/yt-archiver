@@ -9,17 +9,17 @@ use warnings;
 use Getopt::Long;
 
 #set command args
+my $days = 1; #default amount of days to look for videos from channels
 my $rawdogflag;
-GetOptions('rawdog' => \$rawdogflag);
-
+my $debugflag;
+GetOptions('rawdog' => \$rawdogflag, 'debug' => \$debugflag, 'days=i' => \$days);
 
 my $currenttime = time;
-my $days = 1;
 my $cutoffdate = $currenttime - ($days * 24 *60 *60);	# max date to retrieve youtube videos
-
 say time2str(time);
 say time2str($cutoffdate);
 
+unlink glob "*.debug"; # delete all debug output
 my $inputfile = "subscription_manager.opml";	# the input opml file from youtube google takeout
 unless (-e $inputfile){
 	die "YouTube opml input file does not exist!"
@@ -35,19 +35,15 @@ my $root = $twig->root;
 
 # if rawdog option is set, output rawdog compatible file converted from youtube opml file
 my $rawdogfh;
-if ($rawdogflag == 1){
+if ($rawdogflag){
 	open($rawdogfh,'>',"rawdog.txt"); # create file for rawdog
 }
 
 my ($body, $outline, $outlineurl, @channels, $changetype);
 foreach $body ($root->children){
-	#print $body->name ."\n";
-		foreach $outline ($body->children){
-			#print $outline->name ."---------------"."\n";
-				foreach $outlineurl ($outline->children){
-					#print $outlineurl->name ."--\n";
-					#print $outlineurl->att('text') ."\n";
-					if ($rawdogflag == 1){
+	foreach $outline ($body->children){
+			foreach $outlineurl ($outline->children){
+					if ($rawdogflag){
 							say $rawdogfh "feed 30m ". $outlineurl->att('xmlUrl');
 					}
 
@@ -57,12 +53,7 @@ foreach $body ($root->children){
 }
 
 
-
-open (my $fh_out, '>', "sub_out.xml");
-$twig->print($fh_out);
-
-
-# process each channel's rss
+# download and process each channel's rss file
 my $browser = LWP::UserAgent->new;
 my ($rssfileurl, $response);
 
@@ -80,19 +71,25 @@ foreach $rssfileurl (@channels) {
 	$t->parse($response->content);
 }
 
-open(FH2,">downloadlist.txt"); # all video URLs retrieved from
-open(FH3,">filterlist.txt");	# video URLs that are within the cut off time
-open(FH4,">ytdl.txt");
+if ($debugflag){
+	open(DEBUGALLVIDS,">allvids.debug"); # all video URLs, descriptions retrieved from all RSS files
+	open(DEBUGSELECTEDVIDS,">selectedvids.debug");	# video URLs, descriptions that are within the cut off time
+}
+
+
+open(YTDL,">ytdl.txt"); #youtube-dl input file
 my @vidlinks;
 my @sorted_links = reverse(sort(@vidlinks));
 foreach (@sorted_links)
 	{
 		my ($timestamp,$link,$thumbnail, $vtitle) = split(/\t/,$_);
 		if (str2time($timestamp) >= $cutoffdate){
-			say FH3 $_;
-			say FH4 $link;
+			say YTDL $link; # final output file
+
+			if ($debugflag){	say DEBUGSELECTEDVIDS $_;	}
+
 			}
-	say FH2 $_;
+	if ($debugflag){	say DEBUGALLVIDS $_;	}
 	}
 
 ############################################
