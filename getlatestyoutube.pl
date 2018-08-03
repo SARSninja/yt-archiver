@@ -1,12 +1,14 @@
 #!/usr/bin/perl
 
-use XML::Twig;
-use LWP;
 use v5.10;
-use HTTP::Date qw(time2str parse_date str2time);
 use strict;
 use warnings;
+use open ':std', ':encoding(UTF-8)';
+use XML::Twig;
+use LWP;
+use HTTP::Date qw(time2str parse_date str2time);
 use Getopt::Long;
+
 
 #set command args
 my $days = 1; #default amount of days to look for videos from channels
@@ -39,6 +41,7 @@ if ($rawdogflag){
 	open($rawdogfh,'>',"rawdog.txt"); # create file for rawdog
 }
 
+# parse the opml file to get youtube channel URLs
 my ($body, $outline, $outlineurl, @channels, $changetype);
 foreach $body ($root->children){
 	foreach $outline ($body->children){

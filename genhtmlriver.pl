@@ -13,7 +13,7 @@ open(my $outputxml,'>', "ytdl.html");
 
 say $outputxml "<html><title>RSS HTML Subscription list generated $gentime</title><body><center><h1>YT RSS Feeds generated $gentime</h1>";
 
-open(my $inputfile,'<', "filterlist.txt");
+open(my $inputfile,'<', "selectedvids.debug");
 #open(my $inputfile,'<', "downloadlist.txt");
 
 my $counter = 0;
