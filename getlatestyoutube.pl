@@ -18,10 +18,13 @@ GetOptions('rawdog' => \$rawdogflag, 'debug' => \$debugflag, 'days=i' => \$days)
 
 my $currenttime = time;
 my $cutoffdate = $currenttime - ($days * 24 *60 *60);	# max date to retrieve youtube videos
+if ($debugflag){
+	say "DEBUG mode enabled: ALL VIDEOS DUMPED FROM RSS!";
+	$cutoffdate = 0;
+}
 say time2str(time);
 say time2str($cutoffdate);
 
-unlink glob "*.debug"; # delete all debug output
 my $inputfile = "subscription_manager.opml";	# the input opml file from youtube google takeout
 unless (-e $inputfile){
 	die "YouTube opml input file does not exist!"
@@ -72,11 +75,6 @@ foreach $rssfileurl (@channels) {
 	$t->parse($response->content);
 }
 
-if ($debugflag){
-	open(DEBUGALLVIDS,">allvids.debug"); # all video URLs, descriptions retrieved from all RSS files
-	open(DEBUGSELECTEDVIDS,">selectedvids.debug");	# video URLs, descriptions that are within the cut off time
-}
-
 # output final youtube-dl input file
 open(YTDL,">ytdl.txt"); #youtube-dl input file
 my %videohash;
@@ -84,7 +82,10 @@ my @vidlinks;
 
 foreach (reverse(sort { $videohash{$a}{publishdate} cmp $videohash{$b}{publishdate}} keys %videohash)){
 	#reverse sort links by date
-	if (str2time($videohash{$_}{publishdate}) >= $cutoffdate){
+	if ($debugflag){
+		say YTDL $videohash{$_}{videolink};
+	}
+	elsif (str2time($videohash{$_}{publishdate}) >= $cutoffdate){
 		say YTDL $videohash{$_}{videolink};
 	}
 }
@@ -94,7 +95,9 @@ my $gentime = time2isoz(time);
 open(my $outputxml,'>', "ytdl.html");
 
 say $outputxml "<html><title>RSS HTML Subscription list generated $gentime</title><body><center><h1>YT RSS Feeds generated $gentime</h1>";
-
+if ($debugflag){
+	say $outputxml "<h2 style=color:red;>DEBUG mode enabled: ALL VIDEOS DUMPED FROM RSS</h2><br>";
+}
 my $counter = 0;
 foreach (reverse(sort { $videohash{$a}{publishdate} cmp $videohash{$b}{publishdate}} keys %videohash)){
 
