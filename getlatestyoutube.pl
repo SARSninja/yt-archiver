@@ -11,7 +11,7 @@ use Getopt::Long;
 
 
 #set command args
-my $days = 1; #default amount of days to look for videos from channels
+my $days = 2; #default amount of days to look for videos from channels
 my $rawdogflag;
 my $debugflag;
 GetOptions('rawdog' => \$rawdogflag, 'debug' => \$debugflag, 'days=i' => \$days);
@@ -44,7 +44,7 @@ if ($rawdogflag){
 }
 
 # parse the opml file to get youtube channel URLs
-my ($body, $outline, $outlineurl, @channels, $changetype);
+my ($body, $outline, $outlineurl, @channels, $changetype, %opmltitlehash);
 foreach $body ($root->children){
 	foreach $outline ($body->children){
 			foreach $outlineurl ($outline->children){
@@ -52,6 +52,9 @@ foreach $body ($root->children){
 							say $rawdogfh "feed 30m ". $outlineurl->att('xmlUrl');
 					}
 					push @channels, $outlineurl->att('xmlUrl');
+					my $t = $outlineurl->att('title');
+					my $u = $outlineurl->att('xmlUrl');
+					$opmltitlehash{$u} = $t;
 				}
 		}
 }
@@ -62,7 +65,7 @@ my $browser = LWP::UserAgent->new;
 my ($rssfileurl, $response);
 
 foreach $rssfileurl (@channels) {
-	say $rssfileurl;
+	say $opmltitlehash{$rssfileurl};
 	my $response = $browser->get($rssfileurl);
 		die "Can't get $rssfileurl -- ", $response->status_line
 		unless $response->is_success;
@@ -90,11 +93,14 @@ foreach (reverse(sort { $videohash{$a}{publishdate} cmp $videohash{$b}{publishda
 	}
 }
 
+say "youtube-dl --continue --ignore-errors --no-overwrites -f \"[filesize<200M]\" --batch-file ytdl.txt";
+
 # HTML file output
 my $gentime = time2isoz(time);
 open(my $outputxml,'>', "ytdl.html");
 
 say $outputxml "<html><title>RSS HTML Subscription list generated $gentime</title><body><center><h1>YT RSS Feeds generated $gentime</h1>";
+say $outputxml "<h3>".localtime."</h3>";
 if ($debugflag){
 	say $outputxml "<h2 style=color:red;>DEBUG mode enabled: ALL VIDEOS DUMPED FROM RSS</h2><br>";
 }
@@ -113,6 +119,7 @@ foreach (reverse(sort { $videohash{$a}{publishdate} cmp $videohash{$b}{publishda
 			say $outputxml "<table border=1 width=90%>";
 			say $outputxml "<tr valign=top>";
 			say $outputxml "<td width=500px><h2>[<a href=\"$channellink\">$vidauthor</a>] - $vidtitle</h2>";
+			say $outputxml "$vidlink<br><br>";
 			say $outputxml "<em>$timestamp</em><br>";
 			say $outputxml "<a href=\"".$vidlink."\"><img src=\"".$thumbnail."\"></a><br>";
 			say $outputxml "</td>";
