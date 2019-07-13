@@ -11,13 +11,22 @@ use Getopt::Long;
 
 
 #set command args
-my $days = 2; #default amount of days to look for videos from channels
+mmy $days = undef;
+my $hours = undef;
 my $rawdogflag;
 my $debugflag;
-GetOptions('rawdog' => \$rawdogflag, 'debug' => \$debugflag, 'days=i' => \$days);
+GetOptions('rawdog' => \$rawdogflag, 'debug' => \$debugflag, 'days=f' => \$days, 'hours=f' => \$hours);
+
+if (!$days){
+	$days = 1;
+	if (!$hours){
+		$hours=24;
+	}
+}
+
 
 my $currenttime = time;
-my $cutoffdate = $currenttime - ($days * 24 *60 *60);	# max date to retrieve youtube videos
+my $cutoffdate = $currenttime - ($days * $hours *60 *60);	# max date to retrieve youtube videos
 if ($debugflag){
 	say "DEBUG mode enabled: ALL VIDEOS DUMPED FROM RSS!";
 	$cutoffdate = 0;
