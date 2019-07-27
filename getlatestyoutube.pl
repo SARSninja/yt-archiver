@@ -11,7 +11,7 @@ use Getopt::Long;
 
 
 #set command args
-mmy $days = undef;
+my $days = undef;
 my $hours = undef;
 my $rawdogflag;
 my $debugflag;
