@@ -23,7 +23,9 @@ if (!$days){
 		$hours=24;
 	}
 }
-
+if (!$hours){
+	$hours=24;
+}
 
 my $currenttime = time;
 my $cutoffdate = $currenttime - ($days * $hours *60 *60);	# max date to retrieve youtube videos
@@ -31,8 +33,13 @@ if ($debugflag){
 	say "DEBUG mode enabled: ALL VIDEOS DUMPED FROM RSS!";
 	$cutoffdate = 0;
 }
-say time2str(time);
-say time2str($cutoffdate);
+
+my $lct = localtime($currenttime);
+my $lcot = localtime($cutoffdate);
+
+say $lct."\t".time2str($currenttime);
+say $lcot."\t".time2str($cutoffdate);
+
 
 my $inputfile = "subscription_manager.opml";	# the input opml file from youtube google takeout
 unless (-e $inputfile){
@@ -123,6 +130,7 @@ foreach (reverse(sort { $videohash{$a}{publishdate} cmp $videohash{$b}{publishda
 		my $vidauthor = $videohash{$_}{author};
 		my $channellink = $videohash{$_}{channellink};
 		my $viddescription = $videohash{$_}{description};
+		my $lts = localtime(str2time($timestamp));
 
 		if (str2time($videohash{$_}{publishdate}) >= $cutoffdate){
 			say $outputxml "<table border=1 width=90%>";
@@ -130,6 +138,7 @@ foreach (reverse(sort { $videohash{$a}{publishdate} cmp $videohash{$b}{publishda
 			say $outputxml "<td width=500px><h2>[<a href=\"$channellink\">$vidauthor</a>] - $vidtitle</h2>";
 			say $outputxml "$vidlink<br><br>";
 			say $outputxml "<em>$timestamp</em><br>";
+			say $outputxml "<em>$lts</em><br>";
 			say $outputxml "<a href=\"".$vidlink."\"><img src=\"".$thumbnail."\"></a><br>";
 			say $outputxml "</td>";
 			$viddescription =~ s/\n/\<br\>/g;
