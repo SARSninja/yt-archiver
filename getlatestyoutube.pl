@@ -15,7 +15,8 @@ my $days = undef;
 my $hours = undef;
 my $rawdogflag;
 my $debugflag;
-GetOptions('rawdog' => \$rawdogflag, 'debug' => \$debugflag, 'days=f' => \$days, 'hours=f' => \$hours);
+my $tstampflag;
+GetOptions('rawdog' => \$rawdogflag, 'debug' => \$debugflag, 'days=f' => \$days, 'hours=f' => \$hours, 'tstamp' => \$tstampflag);
 
 if (!$days){
 	$days = 1;
@@ -34,12 +35,21 @@ if ($debugflag){
 	$cutoffdate = 0;
 }
 
+if ($tstampflag){
+	say "using ytdl.html last modify time";
+	die "ytdl.html not found, rerun program without -tstamp argument" unless -e "ytdl.html";
+	my $modtime= (stat("ytdl.html"))[10];
+	#say $modtime;
+	#say time2str($modtime);
+	$cutoffdate = $modtime;
+}
 my $lct = localtime($currenttime);
 my $lcot = localtime($cutoffdate);
 
-say $lct."\t".time2str($currenttime);
-say $lcot."\t".time2str($cutoffdate);
-
+say "begin:\t$lcot";
+say "end:\t$lct";
+say "range:\t". (($currenttime - $cutoffdate)/3600) ." hrs";
+say "range:\t". (($currenttime - $cutoffdate)/60)." min";
 
 my $inputfile = "subscription_manager.opml";	# the input opml file from youtube google takeout
 unless (-e $inputfile){
@@ -149,6 +159,7 @@ foreach (reverse(sort { $videohash{$a}{publishdate} cmp $videohash{$b}{publishda
 
 say $outputxml "<h1>$counter videos</h1>";
 say $outputxml "</body></html>";
+say $outputxml time;
 
 ############################################
 sub entry
