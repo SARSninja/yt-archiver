@@ -1,122 +1,199 @@
 <opml version="1.1">
 <body>
-<outline text="YouTube Subscriptions" title="YouTube Subscriptions">
-<outline text="Luckygunner" title="luckygunner" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCznXfC7LthNEPUSvDydDPAw" />
-<outline text="Louis Rossmann" title="Louis Rossmann" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCl2mFZoRqjw_ELax4Yisf6w" />
-<outline text="Coding Tech" title="Coding Tech" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtxCXg-UvSnTKPOzLH4wJaQ" />
-<outline text="Tactical Rifleman" title="Tactical Rifleman" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCj70Q3DUTZVqB51SfdrYpeg" />
-<outline text="WatchMojo.com" title="WatchMojo.com" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaWd5_7JhbQBe4dknZhsHJg" />
-<outline text="Company Man" title="Company Man" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQMyhrt92_8XM0KgZH6VnRg" />
-<outline text="The Fast Lane Car" title="The Fast Lane Car" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6S0jAvcapqJ48ZzLfva12g" />
-<outline text="Practical Engineering" title="Practical Engineering" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMOqf8ab-42UUQIdVoKwjlQ" />
-<outline text="theRadBrad" title="theRadBrad" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCpqXJOEqGS-TCnazcHCo0rA" />
-<outline text="GVMERS" title="GVMERS" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSuhUzpdXg9jme6eN6HA_IA" />
-<outline text="Donut Media" title="Donut Media" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCL6JmiMXKoXS6bpP1D3bk8g" />
-<outline text="DeviantOllam" title="DeviantOllam" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4dxXZQq-ofAadUWbqhoceQ" />
-<outline text="Null Byte" title="Null Byte" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCgTNupxATBfWmfehv21ym-g" />
-<outline text="Technology Connections" title="Technology Connections" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q" />
-<outline text="Skill Up" title="Skill Up" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZ7AeeVbyslLM_8-nVy2B8Q" />
-<outline text="J.J. McCullough" title="J.J. McCullough" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyhOl6uRlxryALlT5yifldw" />
-<outline text="SmallArmsSolutions" title="SmallArmsSolutions" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCn_AGhwovzeWrnqHFJpYWaw" />
-<outline text="GTOger" title="GTOger" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPLjrMiMW2zSIMNZjjSRjQw" />
-<outline text="Gamers Nexus" title="Gamers Nexus" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UChIs72whgZI9w6d6FhwGGHA" />
-<outline text="eveRide ADV" title="eveRide ADV" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBn8MR2Gyc_Ee50y_4ECfaQ" />
-<outline text="Linus Tech Tips" title="Linus Tech Tips" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw" />
-<outline text="TheLazyPeon" title="TheLazyPeon" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCE-f0sqi-H7kuLT0YiW9rcA" />
-<outline text="iFixit Video" title="iFixit Video" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHbx9IUW7eCeJsC4sBCTNBA" />
-<outline text="Development That Pays" title="Development That Pays" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVHTu50vmvVA0OtkGBJlGPw" />
-<outline text="LiveOverflow" title="LiveOverflow" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w" />
-<outline text="Gaming Historian" title="Gaming Historian" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCnbvPS_rXp4PC21PG2k1UVg" />
-<outline text="Raycevick" title="Raycevick" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1JTQBa5QxZCpXrFSkMxmPw" />
-<outline text="AkBKukU" title="AkBKukU" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCerEIdrEW-IqwvlH8lTQUJQ" />
-<outline text="StopDrop&amp;Retro" title="StopDrop&amp;Retro" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwp0KmeZ-B4c4EZPmIp0L4g" />
-<outline text="Matt Risinger" title="Matt Risinger" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCFCTrfb1JUJjs3Im8OZDtBw" />
-<outline text="ryukahr" title="ryukahr" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNUzWfHUP_iXZ1GMHz8gBgw" />
-<outline text="Kirsten Dirksen" title="Kirsten Dirksen" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDsElQQt_gCZ9LgnW-7v-cQ" />
-<outline text="30 Rock Official" title="30 Rock Official" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwLuX0LoZmlIFpfKvCHyELw" />
-<outline text="JeffHK" title="JeffHK" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGpdSarF_FdCygiA1tOl6Cg" />
-<outline text="Steve1989MREInfo" title="Steve1989MREInfo" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2I6Et1JkidnnbWgJFiMeHA" />
-<outline text="RedLetterMedia" title="RedLetterMedia" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrTNhL_yO3tPTdQ5XgmmWjA" />
-<outline text="The 8-Bit Guy" title="The 8-Bit Guy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC8uT9cgJorJPWu7ITLGo9Ww" />
-<outline text="MandaloreGaming" title="MandaloreGaming" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClOGLGPOqlAiLmOvXW5lKbw" />
-<outline text="The Act Man" title="The Act Man" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7WDD6yHgzdqijHluCi1z-Q" />
-<outline text="Mashed" title="Mashed" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGvIBxqin_rx3sY9qacQEhQ" />
-<outline text="saintmillion" title="saintmillion" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCfQOWW8jcNKbwXKb3wTneFA" />
-<outline text="LowSpecGamer" title="LowSpecGamer" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQkd05iAYed2-LOmhjzDG6g" />
-<outline text="Engineering Explained" title="Engineering Explained" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClqhvGmHcvWL9w3R48t9QXQ" />
-<outline text="Strange Parts" title="Strange Parts" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCO8DQrSp5yEP937qNqTooOw" />
-<outline text="Theme Park Review" title="Theme Park Review" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCT-LpxQVr4JlrC_mYwJGJ3Q" />
-<outline text="Bike World" title="Bike World" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHc-Qw3YyvSAKMfhotUmY3w" />
-<outline text="MCrider - Motorcycle Training" title="MCrider - Motorcycle Training" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCC4gEs8RahtTYiBqsiziudQ" />
-<outline text="PostmodernJukebox" title="PostmodernJukebox" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCORIeT1hk6tYBuntEXsguLg" />
-<outline text="RegularCars" title="RegularCars" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCo1pShh6dtg-T_ZZkgi_JDQ" />
-<outline text="Buff Dudes Workouts" title="Buff Dudes Workouts" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCndvbnArPZw7jHRmE9qBcFg" />
-<outline text="Stephen's Machine Room" title="Stephen's Machine Room" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1mpDUINwet2IdDBQ3_sSSw" />
-<outline text="Buff Dudes" title="Buff Dudes" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCKf0UqBiCQI4Ol0To9V0pKQ" />
-<outline text="Summoning Salt" title="Summoning Salt" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtUbO6rBht0daVIOGML3c8w" />
-<outline text="YongYea" title="YongYea" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCT6iAerLNE-0J1S_E97UAuQ" />
-<outline text="Motherboard" title="Motherboard" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCB6PV0cvJpzlcXRG7nz6PpQ" />
-<outline text="VINwiki" title="VINwiki" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCefl-5pmhZmljwZTE2KrcdA" />
-<outline text="Scrap and Pallet Man" title="Scrap and Pallet Man" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-7HprBDSeQXf48YDoWEEBA" />
-<outline text="LegacyKillaHD" title="LegacyKillaHD" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCXIvhdNOzEdpdCSxTzsJm6w" />
-<outline text="Modern Vintage Gamer" title="Modern Vintage Gamer" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCjFaPUcJU1vwk193mnW_w1w" />
-<outline text="Adrian Crenshaw" title="Adrian Crenshaw" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4PBNDLlS4d75MP0xxcukGA" />
-<outline text="SiliconClassics" title="SiliconClassics" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPJ-lEOXwGO8YuxjcrH-SXg" />
-<outline text="Classic Tetris" title="Classic Tetris" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-8BAEcWSEs4-KQp1ULVnaQ" />
-<outline text="Science Studio" title="Science Studio" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCmbkRUS_4Efdt5UIhwNqtcw" />
-<outline text="Nostalgia Nerd" title="Nostalgia Nerd" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ" />
-<outline text="Luke Smith" title="Luke Smith" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA" />
-<outline text="AvE" title="AvE" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UChWv6Pn_zP0rI6lgGt3MyfA" />
-<outline text="FortNine" title="FortNine" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNSMdQtn1SuFzCZjfK2C7dQ" />
-<outline text="Enthought" title="Enthought" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCkhm72fuzkS9fYGlGpEmj7A" />
-<outline text="Brian Will" title="Brian Will" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCseUQK4kC3x2x543nHtGpzw" />
-<outline text="steveo1kinevo" title="steveo1kinevo" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCT4l4ov0PGeZ7Hrk_1i-5Ug" />
-<outline text="shadetree surgeon" title="shadetree surgeon" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCt-rT2jtMulvAMo1aaz1i8g" />
-<outline text="The Cybertronic Spree" title="The Cybertronic Spree" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCTuljH0BrJ8fTui5C0bulcQ" />
-<outline text="Motorcycle.com" title="Motorcycle.com" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUJeW9pnxhDZ5GA0TNRl4zg" />
-<outline text="Visordown Motorcycle Videos" title="Visordown Motorcycle Videos" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0bafpdiKV8_NwecMfOtbtg" />
-<outline text="Car Throttle" title="Car Throttle" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNBbCOuAN1NZAuj0vPe_MkA" />
-<outline text="B is for Build" title="B is for Build" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCl4-WBRqWA2MlxmZorKOV7w" />
-<outline text="Motorcyclist Magazine" title="Motorcyclist Magazine" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCoU6dUN9DZfNlMeEK5i8wOA" />
-<outline text="DEBOSS GARAGE" title="DEBOSS GARAGE" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLXV9vzJwgYOyGaZlD89VfA" />
-<outline text="mikelat" title="mikelat" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQLHU5MVfMo-wZJn8kGokbw" />
-<outline text="RandomGaminginHD" title="RandomGaminginHD" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUzjKyS5r72bfvPkA6GxpRg" />
-<outline text="InRangeTV" title="InRangeTV" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCeUNM9NqJqZXfRNeuW4_2sg" />
-<outline text="Tavarish" title="Tavarish" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvAhDxNNUDhi78tMXVGBUaQ" />
-<outline text="WaybackTECH" title="WaybackTECH" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVoynR97nz-LcMRg-EtmIew" />
-<outline text="8-Bit Keys" title="8-Bit Keys" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcTt3O4_IW5gnA0c58eXshg" />
-<outline text="THE DRIVE" title="THE DRIVE" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5rBpVgv83gYPZ593XwQUsA" />
-<outline text="PeterSripol" title="PeterSripol" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7yF9tV4xWEMZkel7q8La_w" />
-<outline text="Doug DeMuro" title="Doug DeMuro" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsqjHFMB_JYTaEnf_vmTNqg" />
-<outline text="fullychargedshow" title="fullychargedshow" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCzz4CoEgSgWNs9ZAvRMhW2A" />
-<outline text="LastWeekTonight" title="LastWeekTonight" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3XTzVzaHQEd30rQbuvCtTQ" />
-<outline text="Military Arms Channel" title="Military Arms Channel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZ-qxagOkAmCEP-Tu6YliUQ" />
-<outline text="Forgotten Weapons" title="Forgotten Weapons" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrfKGpvbEQXcbe68dzXgJuA" />
-<outline text="LGR" title="LGR" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ" />
-<outline text="azary1010" title="azary1010" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCoOaJy7B4g6aL6YGl2Yg7Mg" />
-<outline text="You Can't Download Vinyl" title="You Can't Download Vinyl" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWlD5XjDj15LRhbgSnrH0XQ" />
-<outline text="TWANGnBANG" title="TWANGnBANG" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPTIo3kOY-dl9x3awsbisUg" />
-<outline text="Ahoy" title="Ahoy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCE1jXbVAGJQEORz9nZqb5bQ" />
-<outline text="britishmuzzleloaders" title="britishmuzzleloaders" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCK-MdBJJw-0glJZgw8dO1Ag" />
-<outline text="Jonathan Ward" title="Jonathan Ward" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWBzWXHGLP-xnlhkGF0JHiw" />
-<outline text="spamjook" title="spamjook" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCKCVfMLO3GI9BLGfqLsRgew" />
-<outline text="The Fast Lane Truck" title="The Fast Lane Truck" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCO-85LYfB61OP4SRAgpfncw" />
-<outline text="jim rad" title="jim rad" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNHPceoyx5H3d41VCDi8mwg" />
-<outline text="Seth's Bike Hacks" title="Seth's Bike Hacks" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCu8YylsPiu9XfaQC74Hr_Gw" />
-<outline text="Joe Collins" title="Joe Collins" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCTfabOKD7Yty6sDF4POBVqA" />
-<outline text="MikeE RideWNC" title="MikeE RideWNC" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCfw5r3cQRm3yXTGVe3I1PEA" />
-<outline text="GoPro" title="GoPro" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqhnX4jA0A5paNd1v-zEysw" />
-<outline text="Lockk9 TT Racing" title="Lockk9 TT Racing" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqhISgSTfSDTnHDmoTh8xOQ" />
-<outline text="JoergSprave" title="JoergSprave" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVZlxkKqlvVqzRJXhAGq42Q" />
-<outline text="BaronVonGrumble" title="BaronVonGrumble" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwfiecilqgSBgnxAUhHAgkw" />
-<outline text="44Teeth" title="44Teeth" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCS2b27uRzxSQX6MvjdmHGIg" />
-<outline text="Techmoan" title="Techmoan" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5I2hjZYiW9gZPVkvzM8_Cw" />
-<outline text="VWestlife" title="VWestlife" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1ydE9gDHTdvbNVIgEKIKzw" />
-<outline text="TFB TV" title="TFB TV" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCnKbs5xffaEzzdKdPZvfhdQ" />
-<outline text="Jake TheGardenSnake" title="Jake TheGardenSnake" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3rjuCzV7y2PT8XxtFO24iQ" />
-<outline text="nutnfancy" title="nutnfancy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbT5ssxEDZHNyz28N4Ov7Wg" />
-<outline text="cryptorthree" title="cryptorthree" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC177-JT2fkpdw6G5iqoraPA" />
-<outline text="Alex on Autos" title="Alex on Autos" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3qM33hHgedfi7qTKKgIApg" />
+<outline text="YouTube Subscriptions"
+title="YouTube Subscriptions">
+<outline text="weapon detective" title="weapon detective" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGxEvJnSuH9uVBawxVOwbbw" />
+<outline text="kitbadger" title="kitbadger" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPzNFlt5v5Uq8lTCFXBak-A" />
+<outline text="Hop" title="Hop" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCCL9yfm-6Jbv9OxWi44-Zdw" />
+<outline text="Luke Smith" title="Luke Smith" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA" />
+<outline text="Linus Tech Tips" title="Linus Tech Tips" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw" />
+<outline text="AkBKukU" title="AkBKukU" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCerEIdrEW-IqwvlH8lTQUJQ" />
+<outline text="kson clips" title="nerodero translate" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_11k48IlJO-L3EB4jM-vOw" />
+<outline text="The 8-Bit Guy" title="The 8-Bit Guy" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC8uT9cgJorJPWu7ITLGo9Ww" />
+<outline text="Louis Rossmann" title="Louis Rossmann" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCl2mFZoRqjw_ELax4Yisf6w" />
+<outline text="WaybackTECH" title="WaybackTECH" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVoynR97nz-LcMRg-EtmIew" />
+<outline text="Practical Engineering" title="Practical Engineering"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMOqf8ab-42UUQIdVoKwjlQ" />
+<outline text="Gamers Nexus" title="Gamers Nexus" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UChIs72whgZI9w6d6FhwGGHA" />
+<outline text="Company Man" title="Company Man" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQMyhrt92_8XM0KgZH6VnRg" />
+<outline text="GVMERS" title="GVMERS" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSuhUzpdXg9jme6eN6HA_IA" />
+<outline text="Donut Media" title="Donut Media" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCL6JmiMXKoXS6bpP1D3bk8g" />
+<outline text="DeviantOllam" title="DeviantOllam" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4dxXZQq-ofAadUWbqhoceQ" />
+<outline text="Null Byte" title="Null Byte" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCgTNupxATBfWmfehv21ym-g" />
+<outline text="Technology Connections"
+title="Technology Connections" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q" />
+<outline text="Skill Up" title="Skill Up" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZ7AeeVbyslLM_8-nVy2B8Q" />
+<outline text="J.J. McCullough" title="J.J. McCullough" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyhOl6uRlxryALlT5yifldw" />
+<outline text="SmallArmsSolutions" title="SmallArmsSolutions"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCn_AGhwovzeWrnqHFJpYWaw" />
+<outline text="sodafunk" title="sodafunk" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1B3Dhu4PWXz7g39xkBxswA" />
+<outline text="zell ch" title="zell ch" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCK1ojgSCMzxqkwEkDxNtgnw" />
+<outline text="iFixit Video" title="iFixit Video" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHbx9IUW7eCeJsC4sBCTNBA" />
+<outline text="rickchama ch" title="rickchama ch"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCraTIScYf9Ch5IqRhuY4IBQ" />
+<outline text="Gaming Historian" title="Gaming Historian"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCnbvPS_rXp4PC21PG2k1UVg" />
+<outline text="Raycevick" title="Raycevick" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1JTQBa5QxZCpXrFSkMxmPw" />
+<outline text="panda gaming" title="panda gaming"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5PkGmcQwH01cTTF6OCdJVw" />
+<outline text="ryukahr" title="ryukahr" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNUzWfHUP_iXZ1GMHz8gBgw" />
+<outline text="Kirsten Dirksen" title="Kirsten Dirksen" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDsElQQt_gCZ9LgnW-7v-cQ" />
+<outline text="30 Rock Official" title="30 Rock Official"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwLuX0LoZmlIFpfKvCHyELw" />
+<outline text="Steve1989MREInfo" title="Steve1989MREInfo"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2I6Et1JkidnnbWgJFiMeHA" />
+<outline text="RedLetterMedia" title="RedLetterMedia" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrTNhL_yO3tPTdQ5XgmmWjA" />
+<outline text="MandaloreGaming" title="MandaloreGaming" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClOGLGPOqlAiLmOvXW5lKbw" />
+<outline text="The Act Man" title="The Act Man" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7WDD6yHgzdqijHluCi1z-Q" />
+<outline text="saintmillion" title="saintmillion" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCfQOWW8jcNKbwXKb3wTneFA" />
+<outline text="LowSpecGamer" title="LowSpecGamer" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQkd05iAYed2-LOmhjzDG6g" />
+<outline text="Engineering Explained" title="Engineering Explained"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClqhvGmHcvWL9w3R48t9QXQ" />
+<outline text="Strange Parts" title="Strange Parts" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCO8DQrSp5yEP937qNqTooOw" />
+<outline text="Theme Park Review" title="Theme Park Review"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCT-LpxQVr4JlrC_mYwJGJ3Q" />
+<outline text="Bike World" title="Bike World" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHc-Qw3YyvSAKMfhotUmY3w" />
+<outline text="PostmodernJukebox" title="PostmodernJukebox"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCORIeT1hk6tYBuntEXsguLg" />
+<outline text="Stephen's Machine Room"
+title="Stephen's Machine Room" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1mpDUINwet2IdDBQ3_sSSw" />
+<outline text="Summoning Salt" title="Summoning Salt" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtUbO6rBht0daVIOGML3c8w" />
+<outline text="Motherboard" title="Motherboard" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCB6PV0cvJpzlcXRG7nz6PpQ" />
+<outline text="VINwiki" title="VINwiki" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCefl-5pmhZmljwZTE2KrcdA" />
+<outline text="Modern Vintage Gamer" title="Modern Vintage Gamer"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCjFaPUcJU1vwk193mnW_w1w" />
+<outline text="Nostalgia Nerd" title="Nostalgia Nerd" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ" />
+<outline text="FortNine" title="FortNine" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNSMdQtn1SuFzCZjfK2C7dQ" />
+<outline text="The Cybertronic Spree" title="The Cybertronic Spree"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCTuljH0BrJ8fTui5C0bulcQ" />
+<outline text="Motorcycle.com" title="Motorcycle.com" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUJeW9pnxhDZ5GA0TNRl4zg" />
+<outline text="Visordown Motorcycle Videos"
+title="Visordown Motorcycle Videos" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0bafpdiKV8_NwecMfOtbtg" />
+<outline text="Car Throttle" title="Car Throttle" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNBbCOuAN1NZAuj0vPe_MkA" />
+<outline text="Motorcyclist Magazine" title="Motorcyclist Magazine"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCoU6dUN9DZfNlMeEK5i8wOA" />
+<outline text="DEBOSS GARAGE" title="DEBOSS GARAGE" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLXV9vzJwgYOyGaZlD89VfA" />
+<outline text="InRangeTV" title="InRangeTV" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCeUNM9NqJqZXfRNeuW4_2sg" />
+<outline text="8-Bit Keys" title="8-Bit Keys" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcTt3O4_IW5gnA0c58eXshg" />
+<outline text="Doug DeMuro" title="Doug DeMuro" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsqjHFMB_JYTaEnf_vmTNqg" />
+<outline text="fullychargedshow" title="fullychargedshow"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCzz4CoEgSgWNs9ZAvRMhW2A" />
+<outline text="LastWeekTonight" title="LastWeekTonight" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3XTzVzaHQEd30rQbuvCtTQ" />
+<outline text="Military Arms Channel" title="Military Arms Channel"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZ-qxagOkAmCEP-Tu6YliUQ" />
+<outline text="Forgotten Weapons" title="Forgotten Weapons"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrfKGpvbEQXcbe68dzXgJuA" />
+<outline text="LGR" title="LGR" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ" />
+<outline text="britishmuzzleloaders" title="britishmuzzleloaders"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCK-MdBJJw-0glJZgw8dO1Ag" />
+<outline text="hololive sings" title="hololive sings" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCja0mlaE21eRx_Ih3QxU5yQ" />
+<outline text="The Fast Lane Truck" title="The Fast Lane Truck"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCO-85LYfB61OP4SRAgpfncw" />
+<outline text="jim rad" title="jim rad" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNHPceoyx5H3d41VCDi8mwg" />
+<outline text="MikeE RideWNC" title="MikeE RideWNC" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCfw5r3cQRm3yXTGVe3I1PEA" />
+<outline text="Lockk9 TT Racing" title="Lockk9 TT Racing"
+type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqhISgSTfSDTnHDmoTh8xOQ" />
+<outline text="44Teeth" title="44Teeth" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCS2b27uRzxSQX6MvjdmHGIg" />
+<outline text="Techmoan" title="Techmoan" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5I2hjZYiW9gZPVkvzM8_Cw" />
+<outline text="VWestlife" title="VWestlife" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1ydE9gDHTdvbNVIgEKIKzw" />
+<outline text="TFB TV" title="TFB TV" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCnKbs5xffaEzzdKdPZvfhdQ" />
+<outline text="Alex on Autos" title="Alex on Autos" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3qM33hHgedfi7qTKKgIApg" />
+<outline text="Jshay translation" title="jshay tl" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYtia5cQdXSWH7GLMWxo9UQ" />
+<outline text="vtube tengoku" title="vtube tengoku" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCg02KL1G0nmH0QzFuLsVoRQ" />
+<outline text="sushi hololive" title="sushi hololive" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4Fh9OcvIEWK405Cvg25jDw" />
+<outline text="sashimi hololive en" title="sashimi hololive en" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCTEKkDX7lafQVnJrqu55jrA" />
+<outline text="kuga" title="kuga" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDa5_HJ3qPkDtbRmdlqBD3g" />
+<outline text="dj aviation" title="dj aviation" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC29_CCc5qpnRaVryYIKiLeg" />
+<outline text="action retro" title="action retro" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCoL8olX-259lS1N6QPyP4IQ" />
+<outline text="punkdagod" title="punkdagod" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-hcGU10e046ZGuR435Pqiw" />
+<outline text="asmongold" title="asmongold" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQeRaTukNYft1_6AZPACnog" />
+<outline text="otamori" title="otamori" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCF4-I8ZQL6Aa-iHfdz-B9KQ" />
+<outline text="TPG" title="TPG" type="rss"
+xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCojUKojsW6zBRmS0TMWHxJQ" />
 </outline>
 </body>
 </opml>
