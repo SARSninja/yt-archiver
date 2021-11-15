@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 use v5.10;
+use List::Util qw(shuffle);
 use strict;
 use warnings;
 use open ':std', ':encoding(UTF-8)';
@@ -89,6 +90,8 @@ foreach $body ($root->children){
 # download and process each channel's rss file
 my $browser = LWP::UserAgent->new;
 my ($rssfileurl, $response);
+
+@channels = shuffle(@channels);
 
 foreach $rssfileurl (@channels) {
 	say $opmltitlehash{$rssfileurl};
