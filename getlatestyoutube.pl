@@ -47,8 +47,11 @@ if ($tstampflag){
 my $lct = localtime($currenttime);
 my $lcot = localtime($cutoffdate);
 
+system("rm dlist*");
+
 say "begin:\t$lcot";
 say "end:\t$lct";
+say "range:\t". (($currenttime - $cutoffdate)/(3600*24)) ." days";
 say "range:\t". (($currenttime - $cutoffdate)/3600) ." hrs";
 say "range:\t". (($currenttime - $cutoffdate)/60)." min";
 
