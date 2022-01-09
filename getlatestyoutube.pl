@@ -48,6 +48,7 @@ my $lct = localtime($currenttime);
 my $lcot = localtime($cutoffdate);
 
 system("rm dlist*");
+system("rm log*.txt");
 
 say "begin:\t$lcot";
 say "end:\t$lct";
