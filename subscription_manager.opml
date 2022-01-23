@@ -2,6 +2,7 @@
 <body>
 <outline text="YouTube Subscriptions" title="YouTube Subscriptions">
 <outline text="cnbc" title="cnbc" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvJJ_dzjViJCoLf5uKUTwoA" />
+<outline text="gungho" title="gungho" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBeWGn3mho4_5Og6D4jHbXw" />
 <outline text="Luke Smith" title="Luke Smith" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA" />
 <outline text="Practical Engineering" title="Practical Engineering" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMOqf8ab-42UUQIdVoKwjlQ" />
 <outline text="Company Man" title="Company Man" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQMyhrt92_8XM0KgZH6VnRg" />
