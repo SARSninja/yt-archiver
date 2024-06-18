@@ -17,7 +17,8 @@ my $hours = undef;
 my $rawdogflag;
 my $debugflag;
 my $tstampflag;
-GetOptions('rawdog' => \$rawdogflag, 'debug' => \$debugflag, 'days=f' => \$days, 'hours=f' => \$hours, 'tstamp' => \$tstampflag);
+my $wgetflag;
+GetOptions('rawdog' => \$rawdogflag, 'wget' => \$wgetflag, 'debug' => \$debugflag, 'days=f' => \$days, 'hours=f' => \$hours, 'tstamp' => \$tstampflag);
 
 if (!$days){
 	$days = 1;
@@ -99,17 +100,48 @@ my ($rssfileurl, $response);
 
 foreach $rssfileurl (@channels) {
 	say $opmltitlehash{$rssfileurl};
-	my $response = $browser->get($rssfileurl);
-		die "Can't get $rssfileurl -- ", $response->status_line
-		unless $response->is_success;
-
-	#print $response->content;
-	my $t = XML::Twig->new(
+	#say $rssfileurl;
+	
+	if ($wgetflag){
+		my $cfh;
+		system("wget --no-check-certificate $rssfileurl -O channel.out");
+		open $cfh, '<', 'channel.out' or die "Can't open file $!";
+		read $cfh, my $file_content, -s $cfh;
+		my $t = XML::Twig->new(
 					twig_handlers =>
 						{entry => \&entry }
 						);
-	$t->parse($response->content);
+		$t->parse($file_content);
+		undef $file_content;
+		close $cfh;
+	} 
+	else {
+		my $response = $browser->get($rssfileurl);
+		die "Can't get $rssfileurl -- ", $response->status_line
+		unless $response->is_success;
+
+		#print $response->content;
+		my $t = XML::Twig->new(
+					twig_handlers =>
+						{entry => \&entry }
+						);
+		$t->parse($response->content);
+
+	}
+
+
+#	my $response = $browser->get($rssfileurl);
+#		die "Can't get $rssfileurl -- ", $response->status_line
+#		unless $response->is_success;
+
+	#print $response->content;
+	
+
+
 }
+
+
+
 
 # output final youtube-dl input file
 open(YTDL,">ytdl.txt"); #youtube-dl input file
